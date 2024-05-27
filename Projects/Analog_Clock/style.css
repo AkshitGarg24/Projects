@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.container{
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 75px);
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    width: 17vw;
+    height: auto;
+    font-size: 2.8vw;
+    text-align: center;
+}
+nav{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 75px;
+    background-color: rgb(103, 100, 100);
+    color: white;
+    padding: 20px;
+    font-size: 27px;
+}
+.clock{
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    max-width: 570px;
+    max-height: 570px;
+    background-image: url(Clock.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.hour{
+    position: absolute;
+    height: 23%;
+    width: 3%;
+    background-color: black;
+    left: 48%;
+    top: 27%;
+    border-radius: 15px;
+    transform-origin: bottom;
+    
+}
+.minute{
+    position: absolute;
+    height: 27%;
+    width: 2%;
+    background-color: black;
+    left: 48.5%;
+    top: 23%;
+    transform-origin: -20% 0;
+    border-radius: 15px;
+    transform-origin: bottom;
+}
+.second{
+    position: absolute;
+    height: 33%;
+    width: 1%;
+    background-color: black;
+    left: 49%;
+    top: 17%;
+    border-radius: 15px;
+    transform-origin: bottom;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer | Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container1 {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(https://practice-project-html-css.vercel.app/Project%204/images/developer.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 1550px;
+        }
+
+        span {
+            color: white;
+        }
+
+        #intro {
+            position: relative;
+            left: 22.5%;
+            top: 10%;
+            font-size: 60px;
+        }
+
+        #name {
+            position: relative;
+            left: 22.5%;
+            top: 10%;
+            font-size: 32px;
+        }
+
+        #role {
+            position: relative;
+            left: 3%;
+            top: 20%;
+            font-size: 60px;
+        }
+
+        .container2 {
+            width: 100vw;
+            height: 150px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container3 {
+            font-family: "Roboto", sans-serif;
+            ;
+            box-sizing: border-box;
+            width: 100vw;
+            height: 500px;
+            display: flex;
+            padding: 75px;
+            justify-content: space-around;
+        }
+
+        div {
+            width: 320px;
+            height: 400px;
+        }
+
+        .first,.second,.third {
+            border-radius: 10px;
+            box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+            transition: 0.2s ease-in-out;
+        }
+
+        .first:hover,.second:hover,.third:hover {
+            transform: scale(1.04);
+            box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+            transition: 0.2s ease-in-out;
+        }
+
+        .container4 {
+            margin-top: 50px;
+            width: 100vw;
+            height: 300px;
+            background-color: black;
+            display: flex;
+        }
+        .one{
+            width: 50vw;
+            background-color: brown;
+        }
+        .contact,.contactinfo{
+            font-size: 40px;
+            position: relative;
+            left: 2.5vw;
+            top: 5vh;
+            color: white;
+        }
+        .contactinfo{
+            width: 45vw;
+            font-size: 18px;
+            top : 10vh;
+        }
+        .two{
+            width: 50vw;
+            background-color: rgb(82, 152, 12);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container1">
+        <span id="intro">Hi,</span>
+        <span id="name">I am Akshit Garg</span>
+        <span id="role">FULL STACK DEVELOPER</span>
+    </section>
+    <section class="container2">
+        <span style="font-size: 45px;">WORK, I CAN DO FOR YOU</span>
+    </section>
+    <section class="container3">
+        <div class="first">
+            <img src="https://practice-project-html-css.vercel.app/Project%204/images/web.png" s>
+            <p style="padding: 10px; font-family: sans-serif; font-size: large;margin-top: 10px;"><b>Web Development</b>
+            </p>
+            <p style="padding: 10px; color: rgba(0, 0, 0, 0.593); line-height: 1.3;">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Corrupti, quaerat ratione excepturi vero eius veniam quisquam
+                cupclassitate facere, delectus eligendi iure. Minus aliquclass doloribus tenetur.</p>
+        </div>
+        <div class="second">
+            <img src="https://practice-project-html-css.vercel.app/Project%204/images/mobile.png" s>
+            <p style="padding: 10px; font-family: sans-serif; font-size: large;margin-top: 10px;"><b>App Development</b>
+            </p>
+            <p style="padding: 10px; color: rgba(0, 0, 0, 0.593); line-height: 1.3;">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Corrupti, quaerat ratione excepturi vero eius veniam quisquam
+                cupclassitate facere, delectus eligendi iure. Minus aliquclass doloribus tenetur.</p>
+        </div>
+        <div class="third">
+            <img src="https://practice-project-html-css.vercel.app/Project%204/images/web.png" s>
+            <p style="padding: 10px; font-family: sans-serif; font-size: large;margin-top: 10px;"><b>UI UX Design</b>
+            </p>
+            <p style="padding: 10px; color: rgba(0, 0, 0, 0.593); line-height: 1.3;">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Corrupti, quaerat ratione excepturi vero eius veniam quisquam cupiditate
+                facere, delectus eligendi iure. Minus aliquid doloribus tenetur.</p>
+        </div>
+    </section>
+    <section class="container4">
+        <div class="one">
+            <p class="contact">Contact Us</p>
+            <p class="contactinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quaerat deleniti itaque, consectetur architecto maxime unde dicta accusantium aliquid velit debitis tenetur nihil voluptatem sapiente quo dolor libero eius quasi.
+                <br>
+                <br>
+                Email : abc@xyz.com
+            </p>
+        </div>
+        <div class="two">
+            <p class="contact">About Me</p>
+            <p class="contactinfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quaerat deleniti itaque, consectetur architecto maxime unde dicta accusantium aliquid velit debitis tenetur nihil voluptatem sapiente quo dolor libero eius quasi.
+            </p>
+            <br>
+            <br>
+            <p class="contactinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, accusantium! Perferendis iure at doloremque hic, saepe expedita cupiditate cumque excepturi illum quaerat, ut inventore laudantium. Inventore dolorem quis hic minima.</p>
+        </div>
+    </section>
+</body>
+
+</html>

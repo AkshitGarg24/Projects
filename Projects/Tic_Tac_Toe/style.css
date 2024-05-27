@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.baloo-bhaijaan-2 {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    height: 164px;
+}
+
+nav {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(101, 4, 101);
+    font-size: 22px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.fullBox {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gameContainer {
+    size: min(500px, 90vw);
+    width: 500px;
+    height: 500px;
+    background-color: rgb(175, 96, 249);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    font-size: 130px;
+    color: rgb(138, 249, 96);
+}
+
+.box:hover {
+    background-color: rgb(192, 140, 241);
+}
+
+.content1 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.content2 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#reset {
+    background-color: rgb(101, 4, 101);
+    width: 113px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#reset:hover {
+    background-color: rgb(81, 3, 81);
+}
+
+.won {
+    width: 200px;
+    height: 200px;
+}
+.container{
+    width: 500px;
+    height: 500px;
+}
+.line{
+    width:calc(0.9*500px);
+    height: 5px;
+    background-color: red;
+    margin: auto;
+    visibility:hidden;
+}
+
+@media screen and (max-width: 1100px) {
+    .fullBox {
+        flex-wrap: wrap;
+    }
+
+    .gameContainer {
+        margin-top: 80px;
+    }
+
+    .content {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .gameContainer {
+        width: 300px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width : 365px) {
+
+    .content1,
+    .content2 {
+        font-size: 7vw;
+    }
+}
+@media screen and (max-width : 330px) {
+    .gameContainer {
+        width: 250px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}

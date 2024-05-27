@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245,246,254);
+}
+.baloo-2 {
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+  }
+.calculator{
+    width: 28vw;
+    height: 40vw;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgb(175, 175, 220) 0px 0px 2px 2px;;
+}
+.heading{
+    position: absolute;
+    left: 23%;
+    top: 7%;
+    text-decoration: underline;
+    font-size: 2vw;
+    font-weight: bold;
+}
+p{
+    background-color: white;
+}
+#text {
+    box-sizing: border-box;
+    position: absolute;
+    top: 21%;
+    left: 4.5%;
+    width: 26vw;
+    height: 3.5vw;
+    background-color: rgb(34, 136, 254);
+    font-size: 2.5vw;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 1.8vw;
+}
+.grid{
+    position: absolute;
+    width: 25vw;
+    height: 24.5vw;
+    background-color: white;
+    top: 35%;
+    left: 6%;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.numbers{
+    cursor: pointer;
+    width: 4vw;
+    height: 4vw;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.15vw;
+    font-weight: bold;
+}
+.lightBlue{
+    background-color:  rgb(245,246,254);
+    color: rgb(50, 50, 50);
+    
+}
+.lightBlue:hover{
+    background-color: rgb(225, 226, 244);
+}
+.blackish{
+    background-color: rgb(30,43,85);
+    color: rgb(238, 236, 236);
+}
+.blackish:hover{
+    background-color: rgb(50, 63, 105);
+}
+.darkgray{
+    background-color: rgb(216,220,241);
+    color: rgb(30, 30, 60);
+}
+.darkgray:hover{
+    background-color: rgb(176, 180, 201);
+}
+.red{
+    background-color: rgb(251,71,99);
+    color: rgb(238, 236, 236);
+}
+.red:hover{
+    background-color: rgb(231, 51, 79);
+}
+.blue{
+    background-color: rgb(34,136,254);
+    color: rgb(238, 236, 236);
+}
+.blue:hover{
+    background-color: rgb(14, 116, 234);
+}
+.yellow{
+    background-color: rgb(254,200,5);
+    color: rgb(238, 236, 236);
+}
+.yellow:hover{
+    background-color: rgb(234, 180, 0);
+}
+.green{
+    background-color: rgb(98,223,119);
+    color: rgb(238, 236, 236);
+}
+.green:hover{
+    background-color: rgb(78, 203, 99);
+}
